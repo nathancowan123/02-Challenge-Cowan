@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -69,12 +69,8 @@ p {
     margin-left: 25px;
 }
 
-#service-article {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+/*id because there is only one of these sections */
 #benefits-article {
     margin-right: 20px;
     padding: 20px;
@@ -86,11 +82,11 @@ p {
     background-color: #2589bd;
 }
 
+/*created class for sections of this article*/
 .benefits-section {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 
 
 .benefits-section h3 {
@@ -99,7 +95,7 @@ p {
 }
 
 
-
+/*Made sure to change this too*/
 .benefits-section img {
     display: block;
     margin: 10px auto;
@@ -107,6 +103,12 @@ p {
 }
 
 
+/*id because there is only one of these sections */
+#service-article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 
 .service-section {
     margin-bottom: 20px;
@@ -117,20 +119,17 @@ p {
     color: #ffffff;
 }
 
-
-
+/*Made sure to change this too*/
 .service-section img {
     max-height: 200px;
 }
-
-
 
 .service-section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-
+/*Condensed the footer*/
 footer {
     padding: 30px;
     clear: both;
